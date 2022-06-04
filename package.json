@@ -1,0 +1,56 @@
+{
+  "name": "txu2k8wiki",
+  "version": "1.0.0",
+  "description": "个人知识库、博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "vue-cli-service serve --mode test --port 9527",
+    "test:unit": "jest --clearCache && vue-cli-service test:unit",
+    "test:ci": "npm run lint && npm run test:unit",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txu2k8/txu2k8wiki.git"
+  },
+  "keywords": [
+    "个人知识库、博客"
+  ],
+  "author": "tao.xu2008@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txu2k8/txu2k8wiki/issues"
+  },
+  "homepage": "https://github.com/txu2k8/txu2k8wiki#readme",
+  "devDependencies": {
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "yamljs": "^0.3.0",
+
+    "@better-scroll/core": "^2.0.0-beta.6",
+    "@better-scroll/slide": "^2.0.0-beta.6",
+    "@vuepress/plugin-active-header-links": "^1.2.0",
+    "@vuepress/plugin-nprogress": "^1.2.0",
+    "@vuepress/plugin-search": "^1.2.0",
+    "chalk": "^4.0.0",
+    "docsearch.js": "^2.5.2",
+    "good-storage": "^1.1.1",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vuepress-plugin-container": "^2.0.2",
+    "vuepress-plugin-smooth-scroll": "^0.0.3"
+  }
+}
