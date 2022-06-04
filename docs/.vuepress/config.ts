@@ -6,7 +6,7 @@ import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
-  // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  base: '/txu2k8wiki/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   // port: 9527,
   // theme: 'vdoing', // 使用npm主题包
   theme: resolve(__dirname, './plugins/vuepress-theme-vdoing'), // 使用本地主题包
@@ -32,10 +32,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/base/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          { text: '基础理论', link: '/pages/auto/' },
-          { text: '流程规范', link: '/pages/platform/' },
-          { text: '测试思维', link: '/pages/platform/' },
-          { text: '测试管理', link: '/pages/platform/' },
+          { text: '基础理论', link: '/pages/b7errr/' },
+          { text: '流程规范', link: '/pages/b7e6f4/' },
+          { text: '测试思维', link: '/pages/d7b959/' },
+          { text: '测试管理', link: '/pages/d715b6/' },
           { text: '测试体系构建', link: '/pages/acbf39/' },
         ],
       },
@@ -57,7 +57,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             { text: 'selenium', link: '/pages/d1c21e/' },
           ]
         },
-        { text: '测试平台', link: '/pages/platform/' },
+        { text: '测试平台', link: '/pages/096d8b/' },
         ],
       },
       {
@@ -77,25 +77,25 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '基础知识', items:[
             { text: '大话存储', link: '/pages/435085/' },
             { text: 'MinIO', link: '/pages/d1c21e/' },
-            { text: 'Ceph', link: '/pages/d1c21e/' },
+            { text: 'Ceph', link: '/pages/d1c22e/' },
           ]
         },
         {
           text: '性能测试', items:[
             { text: '数据模型', link: '/pages/d1c21e/' },
-            { text: 'CosBench', link: '/pages/290053/' },
+            { text: 'CosBench', link: '/pages/291053/' },
             { text: 'minio/warp', link: '/pages/d1c21e/' },
           ]
         },
         {
           text: '可靠性测试', items:[
-            { text: '硬件', link: '/pages/290053/' },
+            { text: '硬件', link: '/pages/290253/' },
             { text: '软件', link: '/pages/d1c21e/' },
           ]
         },
         {
           text: '长稳测试', items:[
-            { text: '标准', link: '/pages/290053/' },
+            { text: '标准', link: '/pages/293053/' },
             { text: '业务模型', link: '/pages/d1c21e/' },
           ]
         }
@@ -229,7 +229,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 自定义hmtl(广告)模块
-    htmlModules
+    // htmlModules // 暂不显示公众号
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
